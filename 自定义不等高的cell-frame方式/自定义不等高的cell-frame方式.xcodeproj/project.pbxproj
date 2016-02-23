@@ -25,6 +25,8 @@
 		1819F0401C7C679C00DF5052 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819F0331C7C679C00DF5052 /* NSObject+MJKeyValue.m */; };
 		1819F0411C7C679C00DF5052 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819F0351C7C679C00DF5052 /* NSObject+MJProperty.m */; };
 		1819F0421C7C679C00DF5052 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819F0371C7C679C00DF5052 /* NSString+MJExtension.m */; };
+		1819F0451C7C68B400DF5052 /* XMGStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819F0441C7C68B400DF5052 /* XMGStatus.m */; };
+		1819F0481C7C6AE400DF5052 /* XMGStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819F0471C7C6AE400DF5052 /* XMGStatusCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,10 @@
 		1819F0351C7C679C00DF5052 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		1819F0361C7C679C00DF5052 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		1819F0371C7C679C00DF5052 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		1819F0431C7C68B400DF5052 /* XMGStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGStatus.h; sourceTree = "<group>"; };
+		1819F0441C7C68B400DF5052 /* XMGStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGStatus.m; sourceTree = "<group>"; };
+		1819F0461C7C6AE400DF5052 /* XMGStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGStatusCell.h; sourceTree = "<group>"; };
+		1819F0471C7C6AE400DF5052 /* XMGStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGStatusCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +135,8 @@
 		1819F0191C7C665300DF5052 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1819F0431C7C68B400DF5052 /* XMGStatus.h */,
+				1819F0441C7C68B400DF5052 /* XMGStatus.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,6 +153,8 @@
 		1819F01D1C7C665300DF5052 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1819F0461C7C6AE400DF5052 /* XMGStatusCell.h */,
+				1819F0471C7C6AE400DF5052 /* XMGStatusCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -205,6 +215,7 @@
 		1819EFF21C7C65D000DF5052 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XMG;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = m14a.cn;
 				TargetAttributes = {
@@ -252,6 +263,7 @@
 			files = (
 				1819F03D1C7C679C00DF5052 /* MJPropertyType.m in Sources */,
 				1819F01E1C7C665300DF5052 /* ViewController.m in Sources */,
+				1819F0451C7C68B400DF5052 /* XMGStatus.m in Sources */,
 				1819F0391C7C679C00DF5052 /* MJExtensionConst.m in Sources */,
 				1819F03E1C7C679C00DF5052 /* NSObject+MJClass.m in Sources */,
 				1819F0411C7C679C00DF5052 /* NSObject+MJProperty.m in Sources */,
@@ -259,6 +271,7 @@
 				1819F03B1C7C679C00DF5052 /* MJProperty.m in Sources */,
 				1819EFFF1C7C65D000DF5052 /* main.m in Sources */,
 				1819F03F1C7C679C00DF5052 /* NSObject+MJCoding.m in Sources */,
+				1819F0481C7C6AE400DF5052 /* XMGStatusCell.m in Sources */,
 				1819F03A1C7C679C00DF5052 /* MJFoundation.m in Sources */,
 				1819F0421C7C679C00DF5052 /* NSString+MJExtension.m in Sources */,
 				1819F01F1C7C665300DF5052 /* AppDelegate.m in Sources */,
